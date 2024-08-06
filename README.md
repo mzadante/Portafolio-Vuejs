@@ -51,6 +51,6 @@ npm run lint
 ## ¿Qué Necesitas para Empezar?
 #### Para seguir este tuto, necesitarás tener algunas herramientas básicas instaladas en tu computadora:
 
-### Node.js y npm: Para gestionar las dependencias de Vue.js.
-### Un Editor de Código: Como Visual Studio Code o cualquier otro de tu preferencia.
+#### Node.js y npm: Para gestionar las dependencias de Vue.js.
+#### Un Editor de Código: Como Visual Studio Code o cualquier otro de tu preferencia.
 
