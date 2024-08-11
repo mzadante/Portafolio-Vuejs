@@ -72,3 +72,10 @@ Para empezar, necesitamos tener Node.js y npm instalados en nuestra computadora.
 
 ## Paso 3: Estructura Básica del Proyecto
 Vamos a revisar la estructura básica del proyecto para entender cómo está organizado.
+
+---
+# Capítulo 2: Configuración del Entorno y Estructura del Proyecto
+
+### !Bienvenidos al Capítulo 2!
+En este segundo capítulo, vamos a preparar la estructura de archivos que realizamos en la clase anterior, quitando algunos archivos y seleccionando lo que nos pueda servir para la construcción del Portafolio web con Vue, además explicaremos y veremos un ejemplo práctico como funciona vue 
+
