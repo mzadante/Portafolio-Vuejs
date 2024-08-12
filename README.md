@@ -79,3 +79,9 @@ Vamos a revisar la estructura básica del proyecto para entender cómo está org
 ### !Bienvenidos al Capítulo 2!
 En este segundo capítulo, vamos a preparar la estructura de archivos que realizamos en la clase anterior, quitando algunos archivos y seleccionando lo que nos pueda servir para la construcción del Portafolio web con Vue, además explicaremos y veremos un ejemplo práctico como funciona vue 
 
+---
+# Capítulo 3: Portafolio Vuejs, creando una Barra de Navegación.
+
+### !Bienvenidos al Capítulo 3!
+En este tercer capítulo, vamos a repasar lo visto en el capítulo anterior y comenzaremos a crear una barra de navegación simple para que el usuario pueda acceder rápidamente al contenido, de nuestro portafolio, en este pdf les dejare lo realizado en este capítulo para que lo repasen y lo apliquen a su proyecto.
+
