@@ -85,3 +85,10 @@ En este segundo capítulo, vamos a preparar la estructura de archivos que realiz
 ### !Bienvenidos al Capítulo 3!
 En este tercer capítulo, vamos a repasar lo visto en el capítulo anterior y comenzaremos a crear una barra de navegación simple para que el usuario pueda acceder rápidamente al contenido, de nuestro portafolio, en este pdf les dejare lo realizado en este capítulo para que lo repasen y lo apliquen a su proyecto.
 
+---
+# Capítulo 4: Portafolio Vuejs, creando componente Dtos Personales.
+
+### !Bienvenidos al Capítulo 4!
+En este cuarto capítulo, vamos a repasar lo visto en el capítulo 3, mostrando una nueva herramienta Vue SFC Playground, explicaremos como funciona un v-for y crearemos el componente Datos Personales para agregar a nuestra pagina principal que se encuentra en App.vue.
+Les dejo en el PDF lo realizado en clases y con los links de descarga de los materiales aplicados en este portafolio web.
+No se olviden de repasar los videos o la documentación oficial de Vuejs.
