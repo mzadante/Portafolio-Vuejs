@@ -12,6 +12,7 @@ import Educacion from './components/Educacion.vue';
         <DatosPersonales />
     </header>
     <main>
+        <!--el estilo css de section se encuentra en base.css-->
         <section id="educacion"><h2>Educación - Cursos</h2>
         <Educacion />
         </section>
