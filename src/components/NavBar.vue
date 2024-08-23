@@ -2,6 +2,7 @@
     <nav class="navbar">
             <div class="navbar-menu">
                 <ul>
+<!--Se coloco el operador v-bind al atributo src utilizando su minima expreción el operador : / y se soluciono el enlace a las distintas secciones-->
                     <a v-for="nav in navegacion" :key="nav.nombre" :href="nav.enlace" class="nav-item" >{{nav.nombre}}</a>  
                 </ul>
             </div>
