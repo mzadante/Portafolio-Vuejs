@@ -2,7 +2,7 @@
     <nav class="navbar">
             <div class="navbar-menu">
                 <ul>
-                    <a v-for="nav in navegacion" :key="nav.nombre" href="nav.enlace" class="nav-item" >{{nav.nombre}}</a>  
+                    <a v-for="nav in navegacion" :key="nav.nombre" :href="nav.enlace" class="nav-item" >{{nav.nombre}}</a>  
                 </ul>
             </div>
         </nav>
