@@ -101,3 +101,12 @@ En este quinto capítulo, vamos a repasar lo visto en el capítulo 4, y crearemo
 Esta vez yo utilizare el codigo proporcionado por otro programador y les doy pase libre para que ustedes busquen un modelo cronológico en linea o pueden crearlo con chat-gpt o cualquier ia, y la idea es que luego lo apliquen a su portafolio y comenten el codigo de lo realizado.
 Dejare en el PDF lo realizado en clases y con los links de descarga de los materiales aplicados en este portafolio web.
 No se olviden de repasar los videos o la documentación oficial de Vuejs.
+
+---
+# Capítulo 5: Portafolio Vuejs, creando componente Estudios - Cursos usando un time line.
+
+### !Bienvenidos al Capítulo 5!
+En este quinto capítulo, vamos a repasar lo visto en el capítulo 4, y crearemos el componente de Estudios y Cursos, utilizando una Time Line, que nos servira para colocar en orden cronológico las fechas de realización y finalización de los estudios.
+Esta vez yo utilizare el codigo proporcionado por otro programador y les doy pase libre para que ustedes busquen un modelo cronológico en linea o pueden crearlo con chat-gpt o cualquier ia, y la idea es que luego lo apliquen a su portafolio y comenten el codigo de lo realizado.
+Dejare en el PDF lo realizado en clases y con los links de descarga de los materiales aplicados en este portafolio web.
+No se olviden de repasar los videos o la documentación oficial de Vuejs.
