@@ -103,10 +103,10 @@ Dejare en el PDF lo realizado en clases y con los links de descarga de los mater
 No se olviden de repasar los videos o la documentación oficial de Vuejs.
 
 ---
-# Capítulo 5: Portafolio Vuejs, creando componente Estudios - Cursos usando un time line.
+# Capítulo 6: Portafolio Vuejs, creando componente Experiencia - Cursos usando un time line.
 
-### !Bienvenidos al Capítulo 5!
-En este quinto capítulo, vamos a repasar lo visto en el capítulo 4, y crearemos el componente de Estudios y Cursos, utilizando una Time Line, que nos servira para colocar en orden cronológico las fechas de realización y finalización de los estudios.
-Esta vez yo utilizare el codigo proporcionado por otro programador y les doy pase libre para que ustedes busquen un modelo cronológico en linea o pueden crearlo con chat-gpt o cualquier ia, y la idea es que luego lo apliquen a su portafolio y comenten el codigo de lo realizado.
-Dejare en el PDF lo realizado en clases y con los links de descarga de los materiales aplicados en este portafolio web.
-No se olviden de repasar los videos o la documentación oficial de Vuejs.
+### !Bienvenidos al Capítulo 6!
+En este capítulo, comenzare a crear el componente Experiencia de nuestro portafolio web, el cual deberemos colocar dentro de la section Experiencia.
+Para realizar la section Experiencia, podemos tomar de referencia lo visto en las muestras de los 25 portafolios que deje en clases, yo realizare algo simple guiándome con mi borrador del CV de Juan Perez.
+Solucionaremos problemas en la barra de navegación para dirijirnos a las diferentes secciones del portafolio realizado con este maravilloso Framework Vuejs.
+
