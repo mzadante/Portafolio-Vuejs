@@ -110,3 +110,20 @@ En este quinto capítulo, vamos a repasar lo visto en el capítulo 4, y crearemo
 Esta vez yo utilizare el codigo proporcionado por otro programador y les doy pase libre para que ustedes busquen un modelo cronológico en linea o pueden crearlo con chat-gpt o cualquier ia, y la idea es que luego lo apliquen a su portafolio y comenten el codigo de lo realizado.
 Dejare en el PDF lo realizado en clases y con los links de descarga de los materiales aplicados en este portafolio web.
 No se olviden de repasar los videos o la documentación oficial de Vuejs.
+
+---
+# Capítulo 6: Portafolio Vuejs, creando componente Experiencia - Cursos usando un time line.
+
+### !Bienvenidos al Capítulo 6!
+En este capítulo, comenzare a crear el componente Experiencia de nuestro portafolio web, el cual deberemos colocar dentro de la section Experiencia.
+Para realizar la section Experiencia, podemos tomar de referencia lo visto en las muestras de los 25 portafolios que deje en clases, yo realizare algo simple guiándome con mi borrador del CV de Juan Perez.
+Solucionaremos problemas en la barra de navegación para dirijirnos a las diferentes secciones del portafolio realizado con este maravilloso Framework Vuejs.
+
+---
+# Capítulo 7: Portafolio Vuejs, creando componente Proyectos - Cursos usando un time line.
+
+### !Bienvenidos al Capítulo 7!
+En este capítulo, veremos cómo construir una galería para mostrar nuestros proyectos. Esta es una parte fundamental de nuestro portafolio, ya que la forma en que presentamos nuestros trabajos puede ser clave para atraer a futuros empleadores.
+Quizás esta es la parte más importante del portafolio ya que como diseñemos y mostremos nuestros proyectos, eso nos puede abrir el camino a nuestro próximo trabajo.
+Para esta sección es muy importante conseguir un buen impacto visual, una buena accesibilidad a cada proyecto, ya sea mostrando como funciona el proyecto o mostrando el código en github. 
+Para ampliar nuestra creatividad podemos utilizar los portafolios que deje de ejemplo en la clase anterior de referencia, y deberemos ver como muestran los proyectos y allí capturar una idea para volcarlo a nuestro portafolio web.
