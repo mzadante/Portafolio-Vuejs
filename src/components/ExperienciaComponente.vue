@@ -1,13 +1,19 @@
 <script setup>
 import { ref } from 'vue';
+import img from '../assets/ventas.svg';
+import img1 from '../assets/ecomerce.svg';
+import img2 from '../assets/configuracion.svg';
+import img3 from '../assets/uiux.svg';
+import img4 from '../assets/watch.svg';
+
 const titulo = 'Desarrollador Full Stack';
 const fecha = 'Desde Enero 2022 / Julio 2024';
 const experiencias = ref([
-    { id: 1, src: './src/assets/ventas.svg', parrafo: 'Lideré un equipo de 5 desarrolladores en la creación de una plataforma de comercio electrónico que incrementó las ventas en un 35% durante el primer año.' },
-    { id: 2, src: './src/assets/ecomerce.svg', parrafo: 'Diseñé y desarrollé aplicaciones web utilizando Node.js, React y MongoDB, logrando reducir el tiempo de carga de las páginas en un 50%.' },
-    { id: 3, src: './src/assets/configuracion.svg', parrafo: 'Implementé soluciones de autenticación y autorización, mejorando la seguridad del sitio web y reduciendo los intentos de acceso no autorizado en un 20%.' },
-    { id: 4, src: './src/assets/uiux.svg', parrafo: 'Colaboré con diseñadores de UX/UI para crear interfaces de usuario atractivas y fáciles de usar, aumentando la satisfacción del cliente en un 15%.' },
-    { id: 5, src: './src/assets/watch.svg', parrafo: 'Automaticé procesos de despliegue continuo utilizando Jenkins y Docker, reduciendo los tiempos de despliegue en un 40%.' },
+    { id: 1, src: img, parrafo: 'Lideré un equipo de 5 desarrolladores en la creación de una plataforma de comercio electrónico que incrementó las ventas en un 35% durante el primer año.' },
+    { id: 2, src: img1, parrafo: 'Diseñé y desarrollé aplicaciones web utilizando Node.js, React y MongoDB, logrando reducir el tiempo de carga de las páginas en un 50%.' },
+    { id: 3, src: img2, parrafo: 'Implementé soluciones de autenticación y autorización, mejorando la seguridad del sitio web y reduciendo los intentos de acceso no autorizado en un 20%.' },
+    { id: 4, src: img3, parrafo: 'Colaboré con diseñadores de UX/UI para crear interfaces de usuario atractivas y fáciles de usar, aumentando la satisfacción del cliente en un 15%.' },
+    { id: 5, src: img4, parrafo: 'Automaticé procesos de despliegue continuo utilizando Jenkins y Docker, reduciendo los tiempos de despliegue en un 40%.' },
 ]);
 </script>
 
