@@ -1,13 +1,18 @@
 <script setup>
+import img from '../assets/linkedin_icon.svg';
+import img1 from '../assets/instagram_icon.svg'
+import img2 from '../assets/github_icon.svg'
+import img3 from '../assets/cv_resume_icon.svg'
+
 const title = 'Juan Perez';
 const descripcion = 'Técnico Universitario en Programación - UTN';
 const residencia = 'San Rafael, Mendoza, Argentina';
 const presentacion = 'Hola, Bienvenido a mi portafolio de proyectos. Soy un desarrollador web con experiencia en el desarrollo de aplicaciones web y móviles.';
 const redesSociales = [
-  { id: 1, name: 'linkedin', src: './src/assets/linkedin_icon.svg', url: 'https://www.linkedin.com/in/jose-perez/' },
-  { id: 2, name: 'Instagram', src: './src/assets/instagram_icon.svg', url: 'https://www.instagram.com/joseperez/' },
-  { id: 3, name: 'github', src: './src/assets/github_icon.svg', url: '' },
-  { id: 4, name: 'curriculum', src: './src/assets/cv_resume_icon.svg', url: '' },
+  { id: 1, name: 'linkedin', src: img, url: 'https://www.linkedin.com/in/jose-perez/' },
+  { id: 2, name: 'Instagram', src: img1, url: 'https://www.instagram.com/joseperez/' },
+  { id: 3, name: 'github', src: img2, url: '' },
+  { id: 4, name: 'curriculum', src: img3, url: '' },
 ];
 const telefono = '+54 9 2604-474849';
 </script>
