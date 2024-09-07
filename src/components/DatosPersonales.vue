@@ -3,7 +3,6 @@ import img from '../assets/linkedin_icon.svg';
 import img1 from '../assets/instagram_icon.svg'
 import img2 from '../assets/github_icon.svg'
 import img3 from '../assets/cv_resume_icon.svg'
-
 const title = 'Juan Perez';
 const descripcion = 'Técnico Universitario en Programación - UTN';
 const residencia = 'San Rafael, Mendoza, Argentina';
