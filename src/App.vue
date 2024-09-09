@@ -45,7 +45,7 @@ import InteresesComponente from './components/InteresesComponente.vue';
     </main>
     <footer>
         <a href="#top">Inicio</a>
-        <p>© 2024 Juan Perez - Portafolio web</p>
+        <p>© 2024 Juan Perez - Portafolio web - Tutorial UTN FRSR</p>
     </footer>
 </template>
 
