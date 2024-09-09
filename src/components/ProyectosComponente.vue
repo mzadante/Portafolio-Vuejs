@@ -1,4 +1,9 @@
 <script setup>
+import proyecto1 from '/src/assets/restaurant.png';
+import proyecto2 from '/src/assets/e-learning.png';
+import proyecto3 from '/src/assets/blog.png';
+import proyecto4 from '/src/assets/restaurant.png';
+
 // Este componente muestra una galería de proyectos con información sobre cada proyecto
 import { ref } from 'vue';
 //.ref es una función que se utiliza para crear una referencia reactiva en Vue 3
@@ -8,7 +13,7 @@ misProyectos.value = ([
     //esto es un array de objetos que contiene información sobre los proyectos
     {
         id: 1,
-        src: "/src/assets/restaurant.png",
+        src: proyecto1,
         titulo: "Aplicación de Reservas para Restaurantes (2023)",
         descripcion: "Creé una aplicación móvil con Flutter que permite a los usuarios reservar mesas en restaurantes locales",
         projectoLink: "https://www.google.com.ar",
@@ -16,7 +21,7 @@ misProyectos.value = ([
     },
     {
         id: 2,
-        src: "/src/assets/e-learning.png",
+        src: proyecto2,
         titulo: "Plataforma de E-learning (2022)",
         descripcion: "Diseñé y desarrollé una plataforma de educación en línea utilizando Django y React. Con diferentes funcionalidades",
         projectoLink: "https://www.google.com.ar",
@@ -24,7 +29,7 @@ misProyectos.value = ([
     },
     {
         id: 3,
-        src: "/src/assets/blog.png",
+        src: proyecto3,
         titulo: "Blog Personal con CMS (2022)",
         descripcion: "Construí un blog personal con un sistema de gestión de contenidos (CMS) personalizado en WordPress.",
         projectoLink: "https://www.google.com.ar",
@@ -32,7 +37,7 @@ misProyectos.value = ([
     },
     {
         id: 4,
-        src: "/src/assets/restaurant.png",
+        src: proyecto4,
         titulo: "Aplicación de Reservas para Restaurantes (2023)",
         descripcion: "Creé una aplicación móvil con Flutter que permite a los usuarios reservar mesas en restaurantes locales",
         projectoLink: "https://www.google.com.ar",
