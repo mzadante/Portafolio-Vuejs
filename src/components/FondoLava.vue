@@ -19,10 +19,10 @@
             d="M102,67.1c-9.6-6.1-22-3.1-29.5,2-15.4,10.7-19.6,37.5-7.6,47.8s35.9,3.9,44.5-12.5C115.5,92.6,113.9,74.6,102,67.1Z" />
     </svg>
     <!--Codigo de como crear un fondo svg animado-->
-    <div class="links">
+    <!-- <div class="links">
         <a href="https://dev.to/uuuuuulala/making-background-blob-animation-in-just-15kb-step-by-step-guide-2482"
             target="_blank">tutorial<img class="icon" src="https://ksenia-k.com/img/icons/link.svg"></a>
-    </div>
+    </div> -->
 </template>
 
 <style scoped>
