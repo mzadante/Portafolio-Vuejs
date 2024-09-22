@@ -88,3 +88,20 @@ body {
 li{
   list-style: none;
 }
+/*Agregado en el capitulo 5*/
+/*Estas son las reglas globales de la etiqueta section del main en App.vue*/
+section {
+  padding: 2rem;
+  border-bottom: 1px solid #ccc;
+  margin: 3rem 0rem 2rem 0rem;
+}
+section h2{
+  font-size: 2rem;
+  color: aliceblue;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+section h3{
+  color: rgb(209, 183, 148);
+}
