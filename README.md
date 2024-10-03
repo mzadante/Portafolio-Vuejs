@@ -113,3 +113,4 @@ En este capítulo, comenzare a crear el componente Experiencia de nuestro portaf
 Para realizar la section Experiencia, podemos tomar de referencia lo visto en las muestras de los 25 portafolios que deje en clases, yo realizare algo simple guiándome con mi borrador del CV de Juan Perez.
 Solucionaremos problemas en la barra de navegación para dirijirnos a las diferentes secciones del portafolio realizado con este maravilloso Framework Vuejs.
 
+
