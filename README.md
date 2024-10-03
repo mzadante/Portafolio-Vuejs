@@ -113,4 +113,12 @@ En este capítulo, comenzare a crear el componente Experiencia de nuestro portaf
 Para realizar la section Experiencia, podemos tomar de referencia lo visto en las muestras de los 25 portafolios que deje en clases, yo realizare algo simple guiándome con mi borrador del CV de Juan Perez.
 Solucionaremos problemas en la barra de navegación para dirijirnos a las diferentes secciones del portafolio realizado con este maravilloso Framework Vuejs.
 
+# Capítulo 7: Portafolio Vuejs, creando componente Proyectos - Cursos usando un time line.
+
+### !Bienvenidos al Capítulo 7!
+En este capítulo, veremos cómo construir una galería para mostrar nuestros proyectos. Esta es una parte fundamental de nuestro portafolio, ya que la forma en que presentamos nuestros trabajos puede ser clave para atraer a futuros empleadores.
+Quizás esta es la parte más importante del portafolio ya que como diseñemos y mostremos nuestros proyectos, eso nos puede abrir el camino a nuestro próximo trabajo.
+Para esta sección es muy importante conseguir un buen impacto visual, una buena accesibilidad a cada proyecto, ya sea mostrando como funciona el proyecto o mostrando el código en github. 
+Para ampliar nuestra creatividad podemos utilizar los portafolios que deje de ejemplo en la clase anterior de referencia, y deberemos ver como muestran los proyectos y allí capturar una idea para volcarlo a nuestro portafolio web.
+=======
 
