@@ -120,5 +120,5 @@ En este capítulo, veremos cómo construir una galería para mostrar nuestros pr
 Quizás esta es la parte más importante del portafolio ya que como diseñemos y mostremos nuestros proyectos, eso nos puede abrir el camino a nuestro próximo trabajo.
 Para esta sección es muy importante conseguir un buen impacto visual, una buena accesibilidad a cada proyecto, ya sea mostrando como funciona el proyecto o mostrando el código en github. 
 Para ampliar nuestra creatividad podemos utilizar los portafolios que deje de ejemplo en la clase anterior de referencia, y deberemos ver como muestran los proyectos y allí capturar una idea para volcarlo a nuestro portafolio web.
-=======
+
 
