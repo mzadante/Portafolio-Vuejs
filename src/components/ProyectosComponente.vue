@@ -1,56 +1,77 @@
 <script setup>
+import proyecto1 from '/src/assets/restaurant.png';
+import proyecto2 from '/src/assets/e-learning.png';
+import proyecto3 from '/src/assets/blog.png';
+import proyecto4 from '/src/assets/restaurant.png';
+
+// Este componente muestra una galería de proyectos con información sobre cada proyecto
+import { ref } from 'vue';
+//.ref es una función que se utiliza para crear una referencia reactiva en Vue 3
+var misProyectos = ref([]);
+//.value es una propiedad que se utiliza para acceder al valor de una referencia reactiva en Vue 3
+misProyectos.value = ([
+    //esto es un array de objetos que contiene información sobre los proyectos
+    {
+        id: 1,
+        src: proyecto1,
+        titulo: "Aplicación de Reservas para Restaurantes (2023)",
+        descripcion: "Creé una aplicación móvil con Flutter que permite a los usuarios reservar mesas en restaurantes locales",
+        projectoLink: "https://www.google.com.ar",
+        githubLink: "https://github.com/usuario/proyecto"
+    },
+    {
+        id: 2,
+        src: proyecto2,
+        titulo: "Plataforma de E-learning (2022)",
+        descripcion: "Diseñé y desarrollé una plataforma de educación en línea utilizando Django y React. Con diferentes funcionalidades",
+        projectoLink: "https://www.google.com.ar",
+        githubLink: "https://github.com/usuario/proyecto"
+    },
+    {
+        id: 3,
+        src: proyecto3,
+        titulo: "Blog Personal con CMS (2022)",
+        descripcion: "Construí un blog personal con un sistema de gestión de contenidos (CMS) personalizado en WordPress.",
+        projectoLink: "https://www.google.com.ar",
+        githubLink: "https://github.com/usuario/proyecto"
+    },
+    {
+        id: 4,
+        src: proyecto4,
+        titulo: "Aplicación de Reservas para Restaurantes (2023)",
+        descripcion: "Creé una aplicación móvil con Flutter que permite a los usuarios reservar mesas en restaurantes locales",
+        projectoLink: "https://www.google.com.ar",
+        githubLink: "https://github.com/usuario/proyecto"
+    },
+])
 
 </script>
 
 <template>
+    <!-- Aquí va el código HTML de la galería de proyectos -->
     <div class="galeria">
-        <div class="proyecto">
-            <img src="/src/assets/annidada-tech.jpeg" alt="Proyecto 1">
+        <!-- Itera sobre cada proyecto en la lista de misProyectos -->
+        <!--key es una propiedad especial que se utiliza para identificar de forma única cada elemento en una lista de Vue.js-->
+        <li class="proyecto" v-for="proyecto in misProyectos" :key="proyecto.id">
+            <!-- Muestra la imagen del proyecto utilizando : que es una directiva de enlace de atributo en Vue.js -->
+            <img :src="proyecto.src" :alt="proyecto.titlulo">
             <div class="proyecto-info">
-                <h3>Ecomerce </h3>
-                <p>Creé una plataforma de comercio electrónico que incrementó las ventas en un 35% durante el
-                    primer año.</p>
+                <!-- Muestra el título y la descripción del proyecto utilizando la interpolación de Vue.js -->
+                <h3>{{ proyecto.titulo }}</h3>
+                <p>{{ proyecto.descripcion }}</p>
                 <div class="proyecto-links">
-                    <a href="https://proyecto1.com" class="btn-ver-mas" target="_blank" rel="noopener noreferrer">Ver
+                    <a :href="proyecto.projectoLink" class="btn-ver-mas" target="_blank" rel="noopener noreferrer">Ver
                         Proyecto</a>
-                    <a href="https://github.com/usuario/proyecto1" class="github-link" target="_blank"
-                        rel="noopener noreferrer">Ver Código en GitHub</a>
+                    <a :href="proyecto.githubLink" class="github-link" target="_blank" rel="noopener noreferrer">Ver
+                        Código en GitHub</a>
                 </div>
             </div>
-        </div>
-        <div class="proyecto">
-            <img src="/src/assets/annidada-tech.jpeg" alt="Proyecto 1">
-            <div class="proyecto-info">
-                <h3>Ecomerce </h3>
-                <p>Creé una plataforma de comercio electrónico que incrementó las ventas en un 35% durante el
-                    primer año.</p>
-                <div class="proyecto-links">
-                    <a href="https://proyecto1.com" class="btn-ver-mas" target="_blank" rel="noopener noreferrer">Ver
-                        Proyecto</a>
-                    <a href="https://github.com/usuario/proyecto1" class="github-link" target="_blank"
-                        rel="noopener noreferrer">Ver Código en GitHub</a>
-                </div>
-            </div>
-        </div>
-        <div class="proyecto">
-            <img src="/src/assets/annidada-tech.jpeg" alt="Proyecto 1">
-            <div class="proyecto-info">
-                <h3>Ecomerce </h3>
-                <p>Creé una plataforma de comercio electrónico que incrementó las ventas en un 35% durante el
-                    primer año.</p>
-                <div class="proyecto-links">
-                    <a href="https://proyecto1.com" class="btn-ver-mas" target="_blank" rel="noopener noreferrer">Ver
-                        Proyecto</a>
-                    <a href="https://github.com/usuario/proyecto1" class="github-link" target="_blank"
-                        rel="noopener noreferrer">Ver Código en GitHub</a>
-                </div>
-            </div>
-        </div>
+        </li>
     </div>
-
 </template>
 
 <style scoped>
+/*Estilo de fondo de la galeria con un fondo estatico */
 /* .galeria {
     width: 100%;
     height: 100vh;
@@ -175,7 +196,8 @@
     /* Establece un espacio de 10px entre los elementos */
     gap: 10px;
     /* Agrega un margen superior de 10px */
-    margin-top: 10px;
+    margin-top: 30px;
+
 }
 
 /* Estilo para el botón 'Ver Más' dentro de la clase 'proyecto-links' */
@@ -192,6 +214,7 @@
     text-decoration: none;
     /* Aplica una transición suave al cambiar el color de fondo */
     transition: background-color 0.3s;
+    margin-top: 1rem;
 }
 
 /* Estilo para cuando el botón 'Ver Más' es hover */
